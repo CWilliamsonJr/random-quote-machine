@@ -1,56 +1,79 @@
+.navbar{
+  background-color: black;
+}
+ .navbar .h2{
+    color: white;
+  }
 body > #container {
-  font-family: "Berkshire Swash", cursive;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   margin-left:-15px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";  
+
+  quotes: "\201C""\201D""\2018""\2019";
+
+  border-left: 10px solid #ccc;
+  background: #f9f9f9;
 }
 
 span:before {
-  color: #ccc;
   content: open-quote;
+  vertical-align: -0.4em;
+
+  color: #ccc;
+
   font-size: 4em;
   line-height: 0.1em;
-  vertical-align: -0.4em;
 }
 
 span:after {
-  color: #ccc;
   content: close-quote;
+  vertical-align: -0.5em;
+
+  color: #ccc;
+
   font-size: 4em;
   line-height: 0.1em;
-  vertical-align: -0.5em;
 }
 
 blockquote p {
   display: inline;
 }
-
+.navbar{
+  background-color: black;
+}
+ .navbar .h2{
+    color: white;
+  }
 #container {
   width: 500px;
-  margin-top: 200px;  
+  margin-top: 200px;
 }
 
 #new_quote{
   margin-left: 15px;
 }
 
+html {
+  position: relative;
+
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
 .footer {
   position: absolute;
   bottom: 0;
+
   width: 100%;
-  height: 60px;
-}
-html {
-  position: relative;
-  min-height: 100%;
-}
-body { 
-  margin-bottom: 60px;
-  
+  /* Set the fixed height of the footer here */
+  height: 51px;
+
+  color:white;
+  background-color: black;
 }

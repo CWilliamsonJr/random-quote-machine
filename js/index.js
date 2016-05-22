@@ -1,6 +1,6 @@
 "use strict";
 //"esversion: 6";
-
+ require('../css/style.css');
 
 let quoteApi = 'https://andruxnet-random-famous-quotes.p.mashape.com/';
 let requestObj = {
